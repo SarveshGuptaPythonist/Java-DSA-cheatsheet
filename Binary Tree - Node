@@ -1,0 +1,11 @@
+static class Node {    
+    int value; //data stored as type int
+        Node left, right; //reference to left and right pointer
+          
+        Node(int value){ //constructor
+            this.value = value; 
+            // store null value for left and right child
+            left = null; 
+            right = null; 
+        }
+}
